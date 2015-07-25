@@ -45,7 +45,7 @@ public static void main(String[] args) throws Exception {
 		String cipherText = RSAUtils1.encrypt(mail, 
 				RSAUtils1.getPublicKey(key)); 
 		//filemail.buildsendmail1(zhuti, cipherText);
-		filemail.buildsendmail1(fajianren, shoujianren, zhuti, cipherText);
+		//filemail.buildsendmail1(fajianren, shoujianren, zhuti, cipherText);
 		in1.close();
 	}
 	if(Integer.parseInt(zhuangtai)==1){

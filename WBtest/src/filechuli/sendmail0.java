@@ -58,7 +58,7 @@ public class sendmail0 {
 			out.close();*/
 			String cipherText = RSAUtils1.encrypt(mail, 
 					RSAUtils1.getPublicKey(key)); 
-			filemail.buildsendmail1(fajianren, shoujianren, zhuti, cipherText);
+			//filemail.buildsendmail1(fajianren, shoujianren, zhuti, cipherText);
 			in1.close();
 			String filename1="E:/ÓÊÏä/·¢ËÍÓÊ¼ş/buildsendmail1.txt";
 			socketsend a2=new socketsend(filename1);
